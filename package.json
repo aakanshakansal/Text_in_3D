@@ -1,11 +1,12 @@
 {
-  "name": "threejs-journey-exercise",
+  "name": "Text_in_3D",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "vercel --prod"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "4.1",
